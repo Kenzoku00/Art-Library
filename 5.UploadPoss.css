@@ -1,0 +1,325 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+li a {
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    border-bottom: 2px solid black;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-color: white;
+}
+
+.logo {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+
+.akun {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+
+.AL {
+    margin-right: auto;
+    font-weight: 750;
+    font-family: 'Croissant One', serif;
+}
+
+.nav-bar ul {
+    display: flex;
+}
+
+.nav-bar ul li a {
+    display: inline-block;
+    color: black;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: 0.2s;
+    margin: 0 5px;
+    font-weight: bold;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav-bar ul li a:hover {
+    color: white;
+    background: #47B0F8;
+}
+
+.nav-bar ul li a.active {
+    color: white;
+    background: #47B0F8;
+}
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    background: transparent;
+    padding: 3px 0 0 5px;
+    border-radius: 5px;
+}
+
+.search-box {
+    position: relative;
+    height: 45px;
+    max-width: 555px;
+    width: 100%;
+    background-color: #efefef;
+    border-radius: 15px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-right: 270px;
+    margin-left: 5px;
+}
+
+.search-box input {
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 0 15px 0 15px;
+}
+
+.search-box .search-icon {
+    left: 15px;
+    top: 50%;
+    color: #D6D3D3;
+    transform: translateY(-50%);
+}
+
+.Box {
+    width: 1450px; 
+    margin: 20px auto;
+    border-radius: 30px;
+    box-shadow: -15px 15px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    background-color: #ffffff;
+    margin-top: 96px;
+    border: 2px solid #ddd;
+}
+
+.K2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.illus {
+    width: 45%;
+}
+
+.illus label {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.illus input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+    background-color: #fff;
+}
+
+.Deskripsi {
+    width: 50%; 
+}
+
+.Deskripsi label {
+    font-size: 20px;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.Deskripsi textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+    background-color: #fff;
+    resize: none;
+}
+
+.Judul label,
+.Kategori label {
+    font-size: 20px;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.Judul input,
+.Kategori select {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.Kategori p{
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.checkboxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.checkboxes label {
+    display: inline-flex;
+    align-items: center;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.checkboxes input {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.upload {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.upload .btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #47B0F8;
+    border: none;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.upload .btn:hover {
+    background-color: #308ad2;
+}
+
+.navbar-bottom {
+    display: none;
+}
+
+.jdl {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    
+    .logo {
+        display: none;
+    }
+
+    .AL {
+        display: none;
+    }
+
+    .nav-bar ul {
+        display: none;
+    }
+
+    .akun {
+        display: none;
+    }
+
+    .search-box {
+        display: none;
+    }
+
+    .jdl {
+        justify-content: center;
+        width: 100%;
+        display: flex;
+        font-family: 'Ubuntu';
+        font-weight: 700;
+        font-size: 28px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .navbar-bottom {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: white;
+        border-top: 10px solid;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 2;
+    }
+
+    .navbar-bottom a {
+        width: 10%;
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+    
+    .navbar-bottom img {
+        width: 100%;
+    }
+
+    .Box {
+        width: 100%;
+        max-width: 90%;
+        box-shadow: none;
+        margin-bottom: 100px;
+    }
+
+}

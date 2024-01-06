@@ -1,0 +1,396 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+li a {
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    border-bottom: 2px solid black;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-color: white;
+}
+
+.logo {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+
+.akun {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+
+.AL {
+    margin-right: auto;
+   font-weight: 750;
+   font-family: 'Croissant One', serif;
+}
+
+.nav-bar ul {
+    display: flex;
+}
+
+.nav-bar ul li a {
+    display: inline-block;
+    color: black;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: 0.2s;
+    margin: 0 5px;
+    font-weight: bold;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav-bar ul li a:hover {
+    color: white;
+    background: #47B0F8;
+}
+
+.nav-bar ul li a.active {
+    color: white;
+    background: #47B0F8;
+}
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    background: transparent;
+    padding: 3px 0 0 5px;
+    border-radius: 5px;
+}
+
+.search-box {
+    height: 45px;
+    max-width: 555px;
+    width: 100%;
+    background-color: #efefef;
+    border-radius: 15px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-right: 270px;
+    margin-left: 5px;
+}
+
+.search-box input {
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 0 15px 0 15px;
+}
+
+.search-box .search-icon {
+    left: 15px;
+    top: 50%;
+    color: #D6D3D3;
+    transform: translateY(-50%);
+}
+
+.box {
+    margin-top: 76px;
+    width: 100%;
+    padding-bottom: 150px;
+}
+
+.Kategori {
+    display: flex;
+    flex-direction: row;
+}
+
+.K1a {
+    width: 400px;
+    height: 250px;
+    margin-left: 120px; 
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.K1a img {
+    width: 400px;
+    height: 250px; 
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.K2a {
+    width: 400px;
+    height: 250px;
+    margin-left: 50px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.K2a img {
+    width: 400px;
+    height: 250px; 
+    border-radius: 20px;
+    z-index: 1; 
+}
+
+.K3a {
+    width: 400px;
+    height: 250px;
+    margin-left: 50px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.K3a img {
+    width: 400px;
+    height: 250px; 
+    border-radius: 20px;
+    z-index: 1; 
+}
+
+.K1 {
+    width: 400px;
+    height: 250px;
+    margin-left: 120px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.K1 img {
+    width: 400px;
+    height: 250px; 
+    border-radius: 20px;
+    z-index: 1; 
+}
+
+.K2 {
+    width: 400px;
+    height: 250px;
+    margin-left: 50px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.K2 img {
+    width: 400px;
+    height: 250px; 
+    border-radius: 20px;
+    z-index: 1; 
+}
+
+.K3 {
+    width: 400px;
+    height: 250px;
+    margin-left: 50px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.K3 img {
+    width: 400px;
+    height: 250px; 
+    border-radius: 20px;
+    z-index: 1; 
+}
+
+.K1a img:hover {
+    cursor: pointer;
+    outline: 2px solid black;
+}
+
+.K2a img:hover {
+    cursor: pointer;
+    outline: 2px solid black;
+}
+
+.K3a img:hover {
+    cursor: pointer;
+    outline: 2px solid black;
+}
+
+.K1 img:hover {
+    cursor: pointer;
+    outline: 2px solid black;
+}
+
+.K2 img:hover {
+    cursor: pointer;
+    outline: 2px solid black;
+}
+
+.K3 img:hover {
+    cursor: pointer;
+    outline: 2px solid black;
+}
+
+.navbar-bottom {
+    display: none;
+}
+
+.judul {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    
+    .logo {
+        display: none;
+    }
+
+    .AL {
+        display: none;
+    }
+
+    .nav-bar ul {
+        display: none;
+    }
+
+    .akun {
+        display: none;
+    }
+
+    .search-box {
+        display: none;
+    }
+
+    .judul {
+        justify-content: center;
+        width: 100%;
+        display: flex;
+        font-family: 'Ubuntu';
+        font-weight: 700;
+        font-size: 28px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .navbar-bottom {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: white;
+        border-top: 10px solid;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar-bottom a {
+        width: 10%;
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+    
+    .navbar-bottom img {
+        width: 100%;
+    }
+
+    .Kategori {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .K1a {  
+        margin-right: 8%;
+        margin-left: 5%;
+        height: auto;
+    }
+
+    .K1a img {
+        width: 105%;
+        height: auto;
+    }
+
+    .K2a {
+        margin-right: 8%;
+        margin-left: 5%;
+        height: auto;
+    }
+
+    .K2a img {
+        width: 105%;
+        height: auto;
+    }
+
+    .K3a {
+        margin-right: 8%;
+        margin-left: 5%;
+        height: auto;
+    }
+
+    .K3a img {
+        width: 105%;
+        height: auto;
+    }
+
+    .K1 {
+        margin-right: 8%;
+        margin-left: 5%;
+        height: auto;
+    }
+
+    .K1 img {
+        width: 105%;
+        height: auto;
+    }
+
+    .K2 {
+        margin-right: 8%;
+        margin-left: 5%;
+        height: auto;
+    }
+
+    .K2 img {
+        width: 105%;
+        height: auto;
+    }
+
+    .Kategori a {
+        margin-right: 8%;
+        margin-left: 5%;
+        height: auto;
+    }
+
+    #forest {
+        margin-left: 0px;
+        height: auto;
+    }
+
+    .K3 {
+        margin-right: 8%;
+        margin-left: 5%;
+        height: auto;
+    }
+
+    .K3 img {
+        width: 105%;
+        height: auto;
+    }
+
+}

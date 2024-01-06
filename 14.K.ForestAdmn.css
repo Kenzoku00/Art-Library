@@ -1,0 +1,168 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    background-color: #111827;
+    width: 260px;
+    height: 100%;
+    padding: 24px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    position: fixed;
+    top: 0; 
+    left: 0;
+}
+
+.sidebar .description-header {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-weight: 700;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    text-align: center;
+}
+
+.admn {
+    display: flex;
+}
+
+.admn img {
+    width: 40px;
+    height: 40px;
+}
+
+.admn p {
+    color: white;
+}
+
+.list-item {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+.list-item ul {
+    padding-top: 50px;
+}
+
+.list-item a {
+    font-size: 24px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+}
+
+li a.active {
+    background-color: #47B0F8;
+}
+
+.description {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    text-align: center;
+    color: white;
+}
+
+.list-item img {
+    width: 40px;
+    height: 40px;
+}
+
+.logo img {
+    width: 200px;
+    height: 200px;
+    background: transparent;
+}
+
+.main-content {
+    background-color: #EEEEEE;
+    flex-grow: 1;
+    margin-left: 260px
+}
+
+.head {
+    background-color: #47B0F8;
+    width: 100%;
+    height: 100px;
+}
+
+.Forest {
+    background-color: #111827;
+    margin-left: 45%;
+    margin-top: 40px;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    padding: 2px;
+}
+
+.Forest p {
+    font-size: 24px;
+    font-weight: 900;
+    font-family: 'Ubuntu';
+    color: white;
+    background: transparent;
+    margin-top: 5px;
+}
+
+h1 {
+    color: white;
+    margin-left: 41%;
+    padding-top: 30px;
+}
+
+.PForest {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 12px;
+}
+
+.BP {
+    width: 250px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: center;
+}
+
+.BP img {
+    max-width: 220px;
+    height: auto;
+    border-radius: 30px;
+    margin: 15px;
+    margin-bottom: auto;
+    transition: opacity 0.5s;
+}
+
+.BP img:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+
+
+

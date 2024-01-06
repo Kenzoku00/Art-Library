@@ -1,0 +1,395 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+li a {
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    border-bottom: 2px solid black;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-color: white;
+}
+
+.logo {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+
+.akun {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+
+.AL {
+    margin-right: auto;
+   font-weight: 750;
+   font-family: 'Croissant One', serif;
+}
+
+.nav-bar ul {
+    display: flex;
+}
+
+.nav-bar ul li a {
+    display: inline-block;
+    color: black;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: 0.2s;
+    margin: 0 5px;
+    font-weight: bold;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav-bar ul li a:hover {
+    color: white;
+    background: #47B0F8;
+}
+
+.nav-bar ul li a.active {
+    color: white;
+    background: #47B0F8;
+}
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    background: transparent;
+    padding: 3px 0 0 5px;
+    border-radius: 5px;
+}
+
+.search-box {
+    position: relative;
+    height: 45px;
+    max-width: 555px;
+    width: 100%;
+    background-color: #efefef;
+    border-radius: 15px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-right: 270px;
+    margin-left: 5px;
+}
+
+.search-box input {
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 0 15px 0 15px;
+}
+
+.search-box .search-icon {
+    left: 15px;
+    top: 50%;
+    color: #D6D3D3;
+    transform: translateY(-50%);
+}
+
+.Container {
+    display: flex;
+    margin-top: 76px;
+}
+
+.Profile {
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.Username {
+    background-color: #efefef;
+    width: 500px;
+    max-width: 90%;
+    height: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 60px;
+    margin-left: 40px;
+    padding-left: 40px;
+}
+
+.Username p {
+    font-family: 'Ubuntu';
+    font-weight: 900;
+    margin-top: 5px;
+    background: transparent;
+}
+
+.Password {
+    background-color: #efefef;
+    width: 500px;
+    max-width: 90%;
+    height: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding-left: 40px;
+}
+
+.Password p {
+    font-family: 'Ubuntu';
+    font-weight: 900;
+    margin-top: 5px;
+    background: transparent;
+}
+
+.Bookmark {
+    width: 260px;
+    height: 50px;
+    background-color: #111827;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 40px;
+    color: white;
+}
+
+.Bookmark {
+    display: flex;
+}
+
+.Bookmark img {
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 5px
+}
+
+.Bookmark p {
+    background: transparent;
+    font-family: 'Ubuntu';
+    font-weight: 900;
+    font-size: 22px;
+    margin-top: 12px;
+}
+
+.Container button {
+    width: 200px;
+    height: 50px;
+    margin-left: 500px;
+    margin-top: 50px;
+    background-color: #111827;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    font-family: 'Ubuntu';
+    font-weight: 900;
+    color: white;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.info2 {
+    display: flex;
+}
+
+.upload {
+    margin-left: 1000px;
+}
+
+.info2 p {
+    width: 220px;
+    margin-top: 80px;
+    margin-left: 50px;
+    font-family: 'Ubuntu';
+    font-weight: 900;
+    font-size: 28px;
+}
+
+.info2 img {
+    width: 50px;
+    height: 50px;
+    margin-top: 70px;
+    margin-left: 20px
+}
+
+.Postingan-saya {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 12px;
+}
+
+.BP {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: center;
+}
+
+.BP img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 30px;
+    margin: 15px;
+    margin-bottom: auto;
+    transition: opacity 0.5s;
+}
+
+.BP img:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    z-index: 1;
+}
+
+.Container a {
+    list-style: none;
+    color: black;
+}
+
+.navbar-bottom {
+    display: none;
+}
+
+.judul {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    
+    .logo {
+        display: none;
+    }
+
+    .AL {
+        display: none;
+    }
+
+    .nav-bar ul {
+        display: none;
+    }
+
+    .akun {
+        display: none;
+    }
+
+    .search-box {
+        display: none;
+    }
+
+    .judul {
+        justify-content: center;
+        width: 100%;
+        display: flex;
+        font-family: 'Ubuntu';
+        font-weight: 700;
+        font-size: 28px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .navbar-bottom {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: white;
+        border-top: 10px solid;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 2;
+    }
+
+    .navbar-bottom a {
+        width: 10%;
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+    
+    .navbar-bottom img {
+        width: 100%;
+    }
+
+    #BP3, #BP4, #BP5, #BP6 {
+        display: none;
+    }
+
+    .BP {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: center;
+    }
+    
+    .BP img {
+        max-width: 90%;
+        height: auto;
+        border-radius: 30px;
+        margin: 15px;
+        margin-bottom: auto;
+        transition: opacity 0.5s;
+    }
+
+    .Container {
+        flex-direction: column;
+    }
+
+    .Profile {
+        margin-left: 29%;
+    }
+
+    .Username {
+        margin-left: 28px;
+    }
+
+    .Password {
+        margin-left: 28px;
+    }
+
+    .Bookmark {
+        margin-left: 28px;
+    }
+
+    .Container button {
+        margin-left: 28px;
+        margin-top: 20px;
+    }
+
+    .upload {
+        margin-left: 0px;
+    }
+
+}
+   

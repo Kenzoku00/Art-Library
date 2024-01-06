@@ -1,0 +1,392 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    background-color: #111827;
+    width: 260px;
+    height: 100%;
+    padding: 24px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    position: fixed;
+    top: 0; 
+    left: 0;
+}
+
+.sidebar .description-header {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-weight: 700;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    text-align: center;
+}
+
+.admn {
+    display: flex;
+}
+
+.admn img {
+    width: 40px;
+    height: 40px;
+}
+
+.admn p {
+    color: white;
+}
+
+.list-item {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+.list-item ul {
+    padding-top: 50px;
+}
+
+.list-item a {
+    font-size: 24px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+}
+
+li a.active {
+    background-color: #47B0F8;
+}
+
+.description {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    text-align: center;
+    color: white;
+}
+
+.list-item img {
+    width: 40px;
+    height: 40px;
+}
+
+.logo img {
+    width: 200px;
+    height: 200px;
+    background: transparent;
+}
+
+.main-content {
+    background-color: #EEEEEE;
+    flex-grow: 1;
+    margin-left: 260px;
+}
+
+.head {
+    background-color: #47B0F8;
+    width: 100%;
+    height: 100px;
+}
+
+h1 {
+    color: white;
+    margin-left: 40%;
+    padding-top: 30px;
+}
+
+.btn {
+    display: flex;
+}
+
+.plus {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 260px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #47B0F8;
+    box-shadow: -5px 5px 2px 2px white;
+}
+
+.plus img {
+    width: 60px;
+    height: 60px;
+}
+
+.plus p {
+    color: white;
+    font-family: 'Ubuntu';
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+
+.delete {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 260px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #47B0F8;
+    box-shadow: -5px 5px 2px 2px white;
+}
+
+.delete img {
+    width: 60px;
+    height: 60px;
+}
+
+.delete p {
+    color: white;
+    font-family: 'Ubuntu';
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+
+.Kategori {
+    display: flex;
+    flex-direction: row;
+}
+
+.K1a {
+    position: relative;
+    width: 350px;
+    height: 250px;
+    margin-left: 60px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.K1a img {
+    width: 350px;
+    height: 250px;
+    position: relative; 
+    border-radius: 20px;
+    z-index: 1; 
+    opacity: 0.5;
+}
+
+.K1a p {
+    position: absolute; 
+    text-align: center;
+    z-index: 2; 
+    bottom: 85px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    padding: 10px; 
+    border-radius: 5px;
+    width: 80%; 
+    background: transparent;
+    color: white;
+    font-size: 36px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-family: 'Croissant One', serif;
+}
+
+.K2a {
+    position: relative;
+    width: 350px;
+    height: 250px;
+    margin-left: 50px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.K2a img {
+    width: 350px;
+    height: 250px;
+    position: relative; 
+    border-radius: 20px;
+    z-index: 1; 
+    opacity: 0.5;
+}
+
+.K2a p {
+    position: absolute; 
+    text-align: center;
+    z-index: 2; 
+    bottom: 85px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    padding: 10px; 
+    border-radius: 5px;
+    width: 80%; 
+    background: transparent;
+    color: white;
+    font-size: 36px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-family: 'Croissant One', serif;
+}
+
+.K3a {
+    position: relative;
+    width: 350px;
+    height: 250px;
+    margin-left: 50px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.K3a img {
+    width: 350px;
+    height: 250px;
+    position: relative; 
+    border-radius: 20px;
+    z-index: 1; 
+    opacity: 0.5;
+}
+
+.K3a p {
+    position: absolute; 
+    text-align: center;
+    z-index: 2; 
+    bottom: 85px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    padding: 10px; 
+    border-radius: 5px;
+    width: 80%; 
+    background: transparent;
+    color: white;
+    font-size: 36px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-family: 'Croissant One', serif;
+}
+
+.K1 {
+    position: relative;
+    width: 350px;
+    height: 250px;
+    margin-left: 60px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.K1 img {
+    width: 350px;
+    height: 250px;
+    position: relative; 
+    border-radius: 20px;
+    z-index: 1; 
+    opacity: 0.5;
+}
+
+.K1 p {
+    position: absolute; 
+    text-align: center;
+    z-index: 2; 
+    bottom: 85px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    padding: 10px; 
+    border-radius: 5px;
+    width: 80%; 
+    background: transparent;
+    color: white;
+    font-size: 36px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-family: 'Croissant One', serif;
+}
+
+.K2 {
+    position: relative;
+    width: 350px;
+    height: 250px;
+    margin-left: 50px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.K2 img {
+    width: 350px;
+    height: 250px;
+    position: relative; 
+    border-radius: 20px;
+    z-index: 1; 
+    opacity: 0.5;
+}
+
+.K2 p {
+    position: absolute; 
+    text-align: center;
+    z-index: 2; 
+    bottom: 85px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    padding: 10px; 
+    border-radius: 5px;
+    width: 80%; 
+    background: transparent;
+    color: white;
+    font-size: 36px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-family: 'Croissant One', serif;
+}
+
+.K3 {
+    position: relative;
+    width: 350px;
+    height: 250px;
+    margin-left: 50px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.K3 img {
+    width: 350px;
+    height: 250px;
+    position: relative; 
+    border-radius: 20px;
+    z-index: 1; 
+    opacity: 0.5;
+}
+
+.K3 p {
+    position: absolute; 
+    text-align: center;
+    z-index: 2; 
+    bottom: 85px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    padding: 10px; 
+    border-radius: 5px;
+    width: 80%; 
+    background: transparent;
+    color: white;
+    font-size: 36px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-family: 'Croissant One', serif;
+}
+
+.hvr img:hover {
+    cursor: pointer;
+    outline: 2px solid black;
+}
+
+
+
+
